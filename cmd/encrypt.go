@@ -44,7 +44,7 @@ var encryptCmd = &cobra.Command{
 					return err
 				}
 
-				logrus.Errorf("Encrypted file \"%s\"", path)
+				logrus.Infof("Encrypted file \"%s\"", path)
 
 				return ioutil.WriteFile(path + ".secure", ciphertext, 0774)
 			}); err != nil {

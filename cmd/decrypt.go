@@ -51,7 +51,7 @@ var decryptCmd = &cobra.Command{
 					return err
 				}
 
-				logrus.Errorf("Decrypted file \"%s\"", path)
+				logrus.Infof("Decrypted file \"%s\"", path)
 
 				return ioutil.WriteFile(path[:len(path)-len(".secure")], ciphertext, 0774)
 			}); err != nil {
