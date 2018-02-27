@@ -3,6 +3,8 @@
 A very simple cli helper that encrypts files in directories using AES-GCM (128bit). Particularly suited for en-/decrypting
 sensitive information in git repositories.
 
+[![Join the chat at https://discord.gg/PAMQWkr](https://img.shields.io/badge/join-chat-00cc99.svg)](https://discord.gg/PAMQWkr)
+
 ## Installation
 
 ```
